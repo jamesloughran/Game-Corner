@@ -45,14 +45,14 @@ nav a{
 }
 
 .btn .signIn{
-    border: 1px solid black;
+    
     padding: 5px 30px;
     background-color: goldenrod;
     color: black;
 }
 
 .btn .logIn{
-    border: 1px solid black;
+    
     padding: 5px 30px;
     background-color: silver;
     color: black;
