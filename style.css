@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.header{
+/* .header{
    padding-top: 20px;
     
     
@@ -56,4 +56,77 @@ nav a{
     padding: 5px 30px;
     background-color: silver;
     color: black;
+} */
+
+.side-bar{
+    /* padding: 20px; */
+    position: fixed;
+    background-color: rgb(43, 42, 42);
+    z-index: 100%;
+    text-align: center;
+    height: 100vh;
+    width: 3%;
+    
+}
+
+.side-bar h1{
+    padding: 40px 0 50px 0;
+    font-size: 25px;
+    color: white;
+}
+
+.nav-links ul li {
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 0;
+    border: 1px solid rgb(43, 42, 42);
+    /* border-radius: 50px; */
+    color: white;
+    background-color: rgb(72, 71, 71);
+}
+
+.nav-links .link-1{
+    padding: 10px 12px;
+    /* border: 1px solid black; */
+    color: white;
+}
+
+.nav-links .link-2{
+    padding: 10px 15px;
+    /* border: 1px solid black; */
+    color: white;
+}
+.nav-links .link-3{
+    padding: 10px 15px;
+    /* border: 1px solid black; */
+    color: white;
+}
+.nav-links .link-4{
+    padding: 10px 15px;
+    /* border: 1px solid black; */
+    color: white;
+}
+
+a{
+    text-decoration: none;
+
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.searchBox{
+    
+    position: fixed;
+}
+
+.btn{
+    position: fixed;
+    right: 0;
+    padding-right: 50px;
 }
