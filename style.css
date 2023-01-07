@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background: rgb(113, 113, 113);
+}
+
 /* .header{
    padding-top: 20px;
     
@@ -59,14 +63,14 @@ nav a{
 } */
 
 .side-bar{
-    /* padding: 20px; */
+    
     position: fixed;
     background-color: rgb(43, 42, 42);
     z-index: 100%;
     text-align: center;
     height: 100vh;
-    width: 3%;
-    
+    width: 60px;
+    box-shadow: 0 .5rem 1rem rgba(193, 193, 193, 0.7);
 }
 
 .side-bar h1{
@@ -116,17 +120,72 @@ a{
 nav{
     display: flex;
     justify-content: center;
-    
-    
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.123);
 }
 
 .searchBox{
     
-    position: fixed;
+    
 }
 
 .btn{
     position: fixed;
     right: 0;
     padding-right: 50px;
+    padding-top: 4px;
+}
+
+.signUp, .logIn{
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+    color: black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.signUp{
+    background-color: rgb(251, 155, 155);
+}
+
+.logIn{
+    background-color: white;
+}
+
+.inputBox .gameSearch{
+    border-radius: 20px;
+    width: 30rem;
+    height: 30px;
+    border: 0;
+    background-color: rgb(174, 174, 174);
+}
+
+.welcome{
+    min-height: 94vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(55, 55, 55), rgba(57, 57, 57, 0.581)),url(img/360_F_224483982_FapFbOly2xBHOhzuVMfeFNRTbpuTbLgg.jpg);
+    background-position: center;
+    background-size: 70%;
+    /* position: relative; */
+}
+
+.greeting{
+    width: 90%;
+    
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.heading{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.para{
+    font-size: 30px;
+    color: rgb(250, 76, 76);
 }
